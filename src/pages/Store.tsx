@@ -9,7 +9,7 @@ const Store = () => {
       </h1>
       <div className="flex flex-wrap m-12  gap-5 justify-center ">
         {storeItems.map((item) => {
-          return <StoreItem {...item} />;
+          return <StoreItem {...item} key={item.id} />;
         })}
       </div>
     </>
