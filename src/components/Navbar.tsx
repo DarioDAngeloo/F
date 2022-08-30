@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useShoping } from "../context/Shoping";
-import svg from "../../public/img/svg.svg";
+import svg from "../../public/svg.svg";
 
 export const Navbar = () => {
   const { openCart, cartQuantity } = useShoping();

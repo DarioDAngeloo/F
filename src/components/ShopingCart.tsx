@@ -2,7 +2,7 @@ import { useShoping } from "../context/Shoping";
 import { CartItem } from "../components/CartItem";
 import { format } from "../utilities/format";
 import storeItems from "../data/items.json";
-import svg from "../../public/img/svg.svg";
+import svg from "../../public/svg.svg";
 
 type ShopingCartProps = {
   isOpen: boolean;
