@@ -8,7 +8,7 @@ import { ShopingProvider } from "./context/Shoping";
 
 function App() {
   return (
-    <div className="App h-screen bg-plane bg-[#b8c1ec]">
+    <div className="App h-screen  bg-[#b8c1ec]">
       <ShopingProvider>
         <Navbar />
         <Routes>

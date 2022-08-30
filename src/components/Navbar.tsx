@@ -7,7 +7,7 @@ export const Navbar = () => {
 
   return (
     <nav>
-      <ul className="flex bg-[#232946] text-2xl gap-7 p-4 justify-between  font-normal font-monserrat ">
+      <ul className="flex bg-[#232946] text-2xl gap-7 p-4 justify-between  font-normal  ">
         <li className="flex gap-14  ">
           <div>
             <Link
