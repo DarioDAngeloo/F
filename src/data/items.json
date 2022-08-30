@@ -3,24 +3,24 @@
     "id": 1,
     "name": "Clothes",
     "price": 170.99,
-    "imgUrl": "../public/img/g.png"
+    "imgUrl": "/public/img/g.png"
   },
   {
     "id": 2,
     "name": "Coffe",
     "price": 7.29,
-    "imgUrl": "../public/img/coffe.jpg"
+    "imgUrl": "/public/img/coffe.jpg"
   },
   {
     "id": 3,
     "name": "Food/day",
     "price": 22.5,
-    "imgUrl": "../public/img/food.png"
+    "imgUrl": "/public/img/food.png"
   },
   {
     "id": 4,
     "name": "日本 家",
     "price": 600,
-    "imgUrl": "../public/img/japan.jpg"
+    "imgUrl": "/public/img/japan.jpg"
   }
 ]
