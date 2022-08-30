@@ -8,30 +8,30 @@ export const Navbar = () => {
     <nav>
       <ul className="flex bg-[#232946] text-2xl gap-7 p-4 justify-between  font-normal font-monserrat ">
         <li className="flex gap-14  ">
-          <li>
+          <div>
             <Link
               to={"/"}
               className="font-bold text-[#fffffe] hover:text-[#eebbc3]"
             >
               Home
             </Link>
-          </li>
-          <li>
+          </div>
+          <div>
             <Link
               to={"/store"}
               className="font-bold text-[#fffffe] hover:text-[#eebbc3]"
             >
               Store
             </Link>
-          </li>
-          <li>
+          </div>
+          <div>
             <Link
               to={"/about"}
               className="font-bold text-[#fffffe] hover:text-[#eebbc3]"
             >
               About
             </Link>
-          </li>
+          </div>
         </li>
 
         {cartQuantity > 0 && (
